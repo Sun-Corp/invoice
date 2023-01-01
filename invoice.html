@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <title>Sun Corp</title>
+    <link rel="stylesheet" type="text/css" href="invoice.css" />
+  </head>
+  <body>
+    <!-- SECTION : NAVBAR -->
+
+    <nav class="wrapper">
+      <div class="sideLeft">
+        <ul class="navigation">
+          <li>
+            <a
+              href="file:///D:/Kuliah%20Informatika/Semester%205/RPL/viewBlade%20tubes/home%20page/homepage.html"
+              >template undangan</a
+            >
+          </li>
+          <li><a href="#chart">pesanan saya</a></li>
+        </ul>
+      </div>
+      <ul class="cart">
+        <li>
+          <a
+            href="D:\Kuliah Informatika\Semester 5\RPL\viewBlade tubes\Keranjang Belanja\keranjangBelanja.html"
+            ><img
+              src="D:\Kuliah Informatika\Semester 5\RPL\viewBlade tubes\shop cart.png"
+          /></a>
+        </li>
+        <li><b>Hi, Guest</b></li>
+        <li>
+          <a href="#"
+            ><img
+              src="D:\Kuliah Informatika\Semester 5\RPL\viewBlade tubes\ellipse.png"
+          /></a>
+          <ul class="dropdown">
+            <li>
+              <a href="#logout"
+                ><img
+                  src="D:\Kuliah Informatika\Semester 5\RPL\viewBlade tubes\Union (1).png"
+              /></a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- END SECTION : NAVBAR -->
+
+    <!-- SECTION : CONTENT -->
+
+    <div class="content">
+      <div class="left-wrapper">
+        <div class="left-content">
+          <h1>Summary Order</h1>
+          <p>Periksa dengan teliti pembelian anda</p>
+          <div class="wrap-product">
+            <div class="left-image">
+              <img
+                src="D:\Kuliah Informatika\Semester 5\RPL\viewBlade tubes\home page\image\long-wed1.png"
+              />
+              <div class="mid-detail">
+                <div class="item-name">
+                  <h3>Nature Rustic Dry</h3>
+                  <p>Overlay Shadow</p>
+                </div>
+                <div class="btn-action">
+                  <button class="btn-hapus">Batalkan Pesanan</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="detail-order">
+            <p>Order ID : 1142023</p>
+            <div class="total-harga">
+              <p class="harga">Total</p>
+              <p class="harga">Rp 250.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-wrapper">
+        <div class="right-content">
+          <h1>Bayar Via Transfer Bank</h1>
+          <div class="norek">
+            <img src="bxs_credit-card-alt.png" alt="" />
+            <p>13012012031012</p>
+          </div>
+          <div class="btn-pay">
+            <button
+              class="pay-button button"
+              type="submit"
+              onclick="openPopup()"
+            >
+              Bayar Sekarang
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="popup">
+      <img
+        src="D:\Kuliah Informatika\Semester 5\RPL\viewBlade tubes\data penganten\Vector.png"
+      />
+      <p>
+        Silahkan melakukan pembayaran <br />
+        <br />
+        Verifikasi pembayaran akan dikirim melalui email
+      </p>
+      <a
+        href="D:\Kuliah Informatika\Semester 5\RPL\viewBlade tubes\home page\homepage.html"
+        ><button type="button" onclick="closePopup()">OK</button></a
+      >
+    </div>
+
+    <!-- END SECTION : CONTENT -->
+    <script src="invoice.js"></script>
+  </body>
+</html>

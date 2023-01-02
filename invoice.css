@@ -98,11 +98,17 @@ body{
 }
 
 .left-content p{
-    color: rgba(152, 152, 171, 1);
+    color: rgb(100, 100, 104);
 }
 
 .left-content h1{
     color: rgb(81, 111, 235);
+}
+
+.btn-back{    
+    width: 100px;
+    height: 30px;
+    margin-bottom: 15px;
 }
 
 .wrap-product{
@@ -139,6 +145,10 @@ body{
 
 .mid-detail p{
     color: rgba(100, 100, 100, 1);
+}
+
+.right-content{
+    margin-top: 60px;
 }
 
 .right-price{
@@ -255,7 +265,7 @@ body{
 }
 
 .popup img{
-    margin-top: -35px;
+    margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 50%;
     box-shadow: 0 3px 6px rgba(0,0,0,0.2);
